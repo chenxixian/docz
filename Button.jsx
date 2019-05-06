@@ -76,3 +76,22 @@ Button.defaultProps = {
   kind: 'primary',
   outline: false,
 }
+
+export function EditButton(props) {
+  let encodedStatus = encodeURIComponent(
+    "This live editor looks pretty darn handy #JavaScript"
+  )
+  let encodedURL = encodeURIComponent(
+    "https://ecs.chenxixian.cn/chenxixian/docz/src/master"
+  )
+
+  return (
+    <a
+      href={`https://ecs.chenxixian.cn/chenxixian/docz/_edit/master/Button.mdx`}
+      target="_blank"
+      className="EditButton">
+      Edit it!
+    </a>
+  )
+}
+
