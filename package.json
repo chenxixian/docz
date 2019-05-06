@@ -1,0 +1,21 @@
+{
+  "name": "mycoolproject",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "now-build": "docz build",
+    "now-dev": "docz dev --port $PORT"
+  },
+  "author": "Samchenxx",
+  "license": "MIT",	
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "docz": "^1.1.0",
+    "docz-theme-default": "^1.1.0"
+  }
+}

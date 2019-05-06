@@ -1,0 +1,129 @@
+{
+  "config": {
+    "title": "My Cool Project",
+    "description": "This is my awesome documentation",
+    "menu": [],
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {
+      "colors": {
+        "mode": "dark",
+        "primary": "tomato"
+      }
+    },
+    "separator": "-",
+    "dest": "/dist",
+    "theme": "docz-theme-default"
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "Alert.mdx",
+      "value": {
+        "name": "Alert",
+        "menu": "Components",
+        "id": "d7b67ab0c287d70b3233b7169b28d06c",
+        "filepath": "Alert.mdx",
+        "link": "",
+        "slug": "alert",
+        "route": "/alert",
+        "headings": [
+          {
+            "slug": "alert",
+            "depth": 1,
+            "value": "Alert"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "using-different-kinds",
+            "depth": 2,
+            "value": "Using different kinds"
+          },
+          {
+            "slug": "use-with-children-as-a-function",
+            "depth": 2,
+            "value": "Use with children as a function"
+          }
+        ]
+      }
+    },
+    {
+      "key": "hello-world.mdx",
+      "value": {
+        "name": "Hello world",
+        "route": "/",
+        "id": "874c5050b3e42fcf460a4fcd8044dfdb",
+        "filepath": "hello-world.mdx",
+        "link": "",
+        "slug": "hello-world",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world!"
+          }
+        ]
+      }
+    },
+    {
+      "key": "Button.mdx",
+      "value": {
+        "name": "Button",
+        "menu": "Components",
+        "id": "24f307fc6a7964b1db3b978e6242def0",
+        "filepath": "Button.mdx",
+        "link": "",
+        "slug": "button",
+        "route": "/button",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "best-practices",
+            "depth": 3,
+            "value": "Best practices"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "with-different-sizes",
+            "depth": 2,
+            "value": "With different sizes"
+          },
+          {
+            "slug": "with-different-colors",
+            "depth": 2,
+            "value": "With different colors"
+          },
+          {
+            "slug": "outlined",
+            "depth": 2,
+            "value": "Outlined"
+          }
+        ]
+      }
+    }
+  ]
+}
