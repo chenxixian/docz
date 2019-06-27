@@ -82,12 +82,12 @@ export function EditButton(props) {
     "This live editor looks pretty darn handy #JavaScript"
   )
   let encodedURL = encodeURIComponent(
-    "https://ecs.chenxixian.cn/chenxixian/docz/src/master"
+    "http://ecs.chenxixian.cn:3000/chenxixian/docz/src/master"
   )
 
   return (
     <a
-      href={`https://ecs.chenxixian.cn/chenxixian/docz/_edit/master/Button.mdx`}
+      href={`http://ecs.chenxixian.cn:3000/chenxixian/docz/_edit/master/Button.mdx`}
       target="_blank"
       className="EditButton">
       Edit it!
