@@ -58,7 +58,7 @@ const ButtonStyled = styled('button')`
   border-radius: 3px;
 `
 
-export const addpageButton = ({ children, ...props }) => (
+export const Button = ({ children, ...props }) => (
   <ButtonStyled {...props}>{children}</ButtonStyled>
 )
 
@@ -90,7 +90,7 @@ export function AddPageButton(props) {
       href={`https://ecs.chenxixian.cn/chenxixian/docz/_new/master/`}
       target="_blank"
       className="EditButton">
-      Edit This Page!
+      Add Page!
     </a>
   )
 }
