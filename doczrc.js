@@ -2,8 +2,8 @@
 
 export default {
   dest: '/dist',
-  title: 'My Cool Project',
-  description: 'This is my awesome documentation',
+  title: '我的网络笔记本',
+  description: 'This is my note web app.',
   theme: 'docz-theme-default',
   themeConfig: {
     colors: {
