@@ -90,7 +90,7 @@ export function EditButton(props) {
       href={`https://ecs.chenxixian.cn/chenxixian/docz/_edit/master/Button.mdx`}
       target="_blank"
       className="EditButton">
-      Edit this page!
+      Edit This Page!
     </a>
   )
 }
