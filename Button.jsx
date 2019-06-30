@@ -90,7 +90,7 @@ export function EditButton(props) {
       href={encodedURL+`/Button.mdx`}
       target="_blank"
       className="EditButton">
-      Edit it!
+      Edit this page!
     </a>
   )
 }
