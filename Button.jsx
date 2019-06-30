@@ -87,7 +87,7 @@ export function EditButton(props) {
 
   return (
     <a
-      href={`https://ecs.chenxixian.cn/chenxixian/docz/src/master/Button.mdx`}
+      href={`https://ecs.chenxixian.cn/chenxixian/docz/_edit/master/Button.mdx`}
       target="_blank"
       className="EditButton">
       Edit this page!
