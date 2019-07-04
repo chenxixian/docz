@@ -1,6 +1,9 @@
 {
   "version": 2,
   "name": "my-docz-project",
+  "github": {
+    "enabled": false
+  },
   "builds": [
     { "src": "package.json", "use": "@now/static-build" }
   ]
