@@ -1,7 +1,7 @@
 {
   "config": {
-    "title": "My Cool Project",
-    "description": "This is my awesome documentation",
+    "title": "我的网络笔记本",
+    "description": "This is my note web app.",
     "menu": [],
     "repository": null,
     "native": false,
@@ -58,25 +58,6 @@
       }
     },
     {
-      "key": "hello-world.mdx",
-      "value": {
-        "name": "Hello world",
-        "route": "/",
-        "id": "874c5050b3e42fcf460a4fcd8044dfdb",
-        "filepath": "hello-world.mdx",
-        "link": "",
-        "slug": "hello-world",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "hello-world",
-            "depth": 1,
-            "value": "Hello world!"
-          }
-        ]
-      }
-    },
-    {
       "key": "Button.mdx",
       "value": {
         "name": "Button",
@@ -87,11 +68,6 @@
         "slug": "button",
         "route": "/button",
         "headings": [
-          {
-            "slug": "button",
-            "depth": 1,
-            "value": "Button"
-          },
           {
             "slug": "best-practices",
             "depth": 3,
@@ -121,6 +97,98 @@
             "slug": "outlined",
             "depth": 2,
             "value": "Outlined"
+          }
+        ]
+      }
+    },
+    {
+      "key": "hello-world.mdx",
+      "value": {
+        "name": "Hello world",
+        "route": "/",
+        "id": "874c5050b3e42fcf460a4fcd8044dfdb",
+        "filepath": "hello-world.mdx",
+        "link": "",
+        "slug": "hello-world",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world!"
+          }
+        ]
+      }
+    },
+    {
+      "key": "mdnow.mdx",
+      "value": {
+        "id": "cf599d1f0f875c83e3468b87bc7a6224",
+        "filepath": "mdnow.mdx",
+        "link": "",
+        "slug": "mdnow",
+        "route": "/mdnow",
+        "name": "Mdnow",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "home",
+            "depth": 1,
+            "value": "Home"
+          },
+          {
+            "slug": "ordered-lists",
+            "depth": 2,
+            "value": "Ordered Lists"
+          },
+          {
+            "slug": "unordered-lists",
+            "depth": 2,
+            "value": "Unordered Lists"
+          },
+          {
+            "slug": "task-lists",
+            "depth": 2,
+            "value": "Task Lists"
+          },
+          {
+            "slug": "quotes",
+            "depth": 2,
+            "value": "Quotes"
+          },
+          {
+            "slug": "code-snippets",
+            "depth": 2,
+            "value": "Code Snippets"
+          },
+          {
+            "slug": "images",
+            "depth": 2,
+            "value": "Images"
+          },
+          {
+            "slug": "hyperlinks",
+            "depth": 2,
+            "value": "Hyperlinks"
+          }
+        ]
+      }
+    },
+    {
+      "key": "template.mdx",
+      "value": {
+        "id": "103d331654ad5fa098f5d82c8d21ced6",
+        "filepath": "template.mdx",
+        "link": "",
+        "slug": "template",
+        "route": "/template",
+        "name": "Template",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "home",
+            "depth": 1,
+            "value": "Home"
           }
         ]
       }
