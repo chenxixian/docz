@@ -3,7 +3,7 @@
   "name": "my-docz-project",
   "alias": ["my-docz-project.chenxixian.now.sh"],
   "github": {
-    "enabled": false
+    "enabled": ture
   },
   "builds": [
     { "src": "package.json", "use": "@now/static-build" }
